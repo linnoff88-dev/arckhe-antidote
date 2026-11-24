@@ -19,7 +19,7 @@
 
 *~3,000 lines Â· 35 files Â· 7 dependencies Â· 0 Docker containers*
 
-[Framework Comparison â†’](https://inematds.github.io/antidote/)
+[Framework Comparison â†’](https://linnoff88-dev.github.io/
 
 </div>
 
@@ -68,7 +68,7 @@ VocÃª recebe a resposta no Telegram
   <p><strong>Arckhé AI</strong></p>
 </div>
 
-git clone https://github.com/inematds/antidote.git
+git clone https://github.com/linnoff88-dev/antidote.git
 cd antidote
 
 # Inicia tudo: cria venv, instala dependÃªncias, roda o wizard
@@ -394,7 +394,7 @@ class MyChannel(BaseChannel):
 
 **~3,000 linhas Â· 35 arquivos Â· 7 dependÃªncias Â· 0 containers Docker**
 
-[Ver anÃ¡lise completa de frameworks â†’](https://inematds.github.io/antidote/)
+[Ver anÃ¡lise completa de frameworks â†’](https://linnoff88-dev.github.io/
 
 </div>
 

@@ -1,4 +1,4 @@
-﻿<div align="center">
+ï»¿<div align="center">
 
 ```
     _   _  _ _____ ___ ___  ___ _____ ___
@@ -17,44 +17,44 @@
 [![Encrypted](https://img.shields.io/badge/Secrets-Fernet%20Encrypted-00D26A?style=flat-square)](https://cryptography.io/)
 [![macOS](https://img.shields.io/badge/Platform-macOS-000000?style=flat-square&logo=apple&logoColor=white)](https://www.apple.com/macos/)
 
-*~3,000 lines Â· 35 files Â· 7 dependencies Â· 0 Docker containers*
+*~3,000 lines êÂ· 35 files êÂ· 7 dependencies êÂ· 0 Docker containers*
 
-[Framework Comparison â†’](https://linnoff88-dev.github.io/
+[Framework Comparison ê¢â â](https://linnoff88-dev.github.io/
 
 </div>
 
 ---
 
-## O que Ã©
+## O que êÂ©
 
-**Antidote** Ã© um assistente de IA pessoal construÃ­do do zero em Python â€” sem frameworks de agente pesados, sem cloud obrigatÃ³ria, sem Docker, sem dashboard web. Roda no seu Mac, fala via Telegram, lembra de tudo, e tem personalidade definida por vocÃª.
+**Antidote** êÂ© um assistente de IA pessoal construêÂ­do do zero em Python ê¢â¬â sem frameworks de agente pesados, sem cloud obrigatêÂ³ria, sem Docker, sem dashboard web. Roda no seu Mac, fala via Telegram, lembra de tudo, e tem personalidade definida por vocêÂª.
 
-Ã‰ exatamente o que o nome diz: o antÃ­doto contra frameworks de IA inchados.
+êâ° exatamente o que o nome diz: o antêÂ­doto contra frameworks de IA inchados.
 
 ```
-VocÃª no Telegram
-     â†“
+VocêÂª no Telegram
+     ê¢â â
 Antidote recebe via long-polling
-     â†“
-Agent loop pensa, busca memÃ³ria, usa ferramentas
-     â†“
+     ê¢â â
+Agent loop pensa, busca memêÂ³ria, usa ferramentas
+     ê¢â â
 OpenRouter (cloud) ou Ollama (local) gera a resposta
-     â†“
-VocÃª recebe a resposta no Telegram
+     ê¢â â
+VocêÂª recebe a resposta no Telegram
 ```
 
 ---
 
-## O que este projeto NÃƒO Ã©
+## O que este projeto NêÆO êÂ©
 
-| âŒ O que nÃ£o Ã© | âœ… O que Ã© |
+| ê¢ÂÅ O que nêÂ£o êÂ© | ê¢Åâ¦ O que êÂ© |
 |---------------|-----------|
-| Multi-usuÃ¡rio | Single-owner, para vocÃª |
+| Multi-usuêÂ¡rio | Single-owner, para vocêÂª |
 | Dependente de cloud | Roda 100% local com Ollama |
-| Cheio de YAML | 7 dependÃªncias pip, ponto |
+| Cheio de YAML | 7 dependêÂªncias pip, ponto |
 | Precisa de Docker | `./start.sh` e acabou |
-| Interface web | Telegram Ã© a interface |
-| Black-box | ~3.000 linhas legÃ­veis |
+| Interface web | Telegram êÂ© a interface |
+| Black-box | ~3.000 linhas legêÂ­veis |
 
 ---
 
@@ -71,41 +71,41 @@ VocÃª recebe a resposta no Telegram
 git clone https://github.com/linnoff88-dev/antidote.git
 cd antidote
 
-# Inicia tudo: cria venv, instala dependÃªncias, roda o wizard
+# Inicia tudo: cria venv, instala dependêÂªncias, roda o wizard
 ./start.sh
 ```
 
-O wizard guia vocÃª por tudo:
+O wizard guia vocêÂª por tudo:
 
 ```
-  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-  â”‚   Bem-vindo ao Antidote                              â”‚
-  â”‚   The antidote to bloated AI frameworks.             â”‚
-  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+  ê¢âÅê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢âÂ
+  ê¢ââ   Bem-vindo ao Antidote                              ê¢ââ
+  ê¢ââ   The antidote to bloated AI frameworks.             ê¢ââ
+  ê¢ââê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢ââ¬ê¢âË
 
   [1/6] Telegram Bot Token
-        Abra o Telegram â†’ @BotFather â†’ /newbot â†’ cole o token
-        âœ“ Token vÃ¡lido â€” bot: @MeuAntidoteBot
+        Abra o Telegram ê¢â â @BotFather ê¢â â /newbot ê¢â â cole o token
+        ê¢Åâ Token vêÂ¡lido ê¢â¬â bot: @MeuAntidoteBot
 
   [2/6] OpenRouter API Key
-        openrouter.ai/keys â†’ crie uma chave â†’ cole aqui
-        âœ“ Chave vÃ¡lida â€” 147 modelos disponÃ­veis
+        openrouter.ai/keys ê¢â â crie uma chave ê¢â â cole aqui
+        ê¢Åâ Chave vêÂ¡lida ê¢â¬â 147 modelos disponêÂ­veis
 
-  [3/6] Modelo padrÃ£o
-        â¯ Claude Sonnet 4 (recomendado)
+  [3/6] Modelo padrêÂ£o
+        ê¢ÂÂ¯ Claude Sonnet 4 (recomendado)
           Claude Haiku 4 (mais barato)
-          GPT-4.1 Mini (mais econÃ´mico)
-          DeepSeek R1 (melhor custo-raciocÃ­nio)
+          GPT-4.1 Mini (mais econêÂ´mico)
+          DeepSeek R1 (melhor custo-raciocêÂ­nio)
 
   [4/6] Nome do seu assistente
         > Antidote
 
   [5/6] Personalidade em uma frase
-        > Direto, honesto, sem enrolaÃ§Ã£o.
+        > Direto, honesto, sem enrolaêÂ§êÂ£o.
 
-  âœ“ ConfiguraÃ§Ã£o salva
-  âœ“ Banco de memÃ³ria criado
-  âœ“ Auto-start instalado (launchd)
+  ê¢Åâ ConfiguraêÂ§êÂ£o salva
+  ê¢Åâ Banco de memêÂ³ria criado
+  ê¢Åâ Auto-start instalado (launchd)
 
   Pronto. Mande uma mensagem no Telegram.
 ```
@@ -116,94 +116,94 @@ O wizard guia vocÃª por tudo:
 
 ```
 antidote/
-â”œâ”€â”€ wizard.py                    # Wizard de setup (rich + questionary)
-â”œâ”€â”€ start.sh                     # Launcher: venv + install + run
-â”œâ”€â”€ com.antidote.agent.plist     # macOS launchd â€” auto-restart
-â”œâ”€â”€ pyproject.toml               # Pacote Python, entry point `antidote`
-â”œâ”€â”€ requirements.txt             # 7 dependÃªncias
-â”‚
-â”œâ”€â”€ antidote/
-â”‚   â”œâ”€â”€ main.py                  # Entry point + CLI router
-â”‚   â”œâ”€â”€ config.py                # Loader de config (singleton)
-â”‚   â”‚
-â”‚   â”œâ”€â”€ agent/
-â”‚   â”‚   â”œâ”€â”€ loop.py              # â˜… Core: recebe â†’ pensa â†’ responde (max 5 rounds)
-â”‚   â”‚   â””â”€â”€ context.py          # Monta system prompt + memÃ³rias relevantes
-â”‚   â”‚
-â”‚   â”œâ”€â”€ providers/
-â”‚   â”‚   â”œâ”€â”€ base.py              # Interface abstrata
-â”‚   â”‚   â”œâ”€â”€ openrouter.py        # OpenRouter via LiteLLM (100+ modelos)
-â”‚   â”‚   â””â”€â”€ ollama.py            # Ollama local (zero custo, zero privacidade comprometida)
-â”‚   â”‚
-â”‚   â”œâ”€â”€ channels/
-â”‚   â”‚   â”œâ”€â”€ base.py              # Interface abstrata
-â”‚   â”‚   â””â”€â”€ telegram.py         # Long-polling, split de msg, typing indicator
-â”‚   â”‚
-â”‚   â”œâ”€â”€ memory/
-â”‚   â”‚   â””â”€â”€ store.py             # SQLite FTS5 + BM25 ranking + deduplicaÃ§Ã£o
-â”‚   â”‚
-â”‚   â”œâ”€â”€ tools/
-â”‚   â”‚   â”œâ”€â”€ base.py              # Interface abstrata
-â”‚   â”‚   â”œâ”€â”€ registry.py          # Descoberta e dispatch de ferramentas
-â”‚   â”‚   â”œâ”€â”€ filesystem.py        # read_file, write_file, list_directory
-â”‚   â”‚   â””â”€â”€ shell.py             # run_command (com safety check)
-â”‚   â”‚
-â”‚   â””â”€â”€ security/
-â”‚       â”œâ”€â”€ secrets.py           # Store Fernet (chave = UUID do hardware)
-â”‚       â””â”€â”€ safety.py            # Blocklist de comandos + audit log
-â”‚
-â””â”€â”€ workspace/
-    â”œâ”€â”€ SOUL.md                  # Personalidade da IA
-    â”œâ”€â”€ AGENTS.md                # Regras de comportamento
-    â”œâ”€â”€ USER.md                  # Perfil e preferÃªncias do usuÃ¡rio
-    â””â”€â”€ MEMORY.md                # Fatos de bootstrap (seed inicial)
+ê¢âÅê¢ââ¬ê¢ââ¬ wizard.py                    # Wizard de setup (rich + questionary)
+ê¢âÅê¢ââ¬ê¢ââ¬ start.sh                     # Launcher: venv + install + run
+ê¢âÅê¢ââ¬ê¢ââ¬ com.antidote.agent.plist     # macOS launchd ê¢â¬â auto-restart
+ê¢âÅê¢ââ¬ê¢ââ¬ pyproject.toml               # Pacote Python, entry point `antidote`
+ê¢âÅê¢ââ¬ê¢ââ¬ requirements.txt             # 7 dependêÂªncias
+ê¢ââ
+ê¢âÅê¢ââ¬ê¢ââ¬ antidote/
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ main.py                  # Entry point + CLI router
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ config.py                # Loader de config (singleton)
+ê¢ââ   ê¢ââ
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ agent/
+ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ loop.py              # ê¢Ëâ¦ Core: recebe ê¢â â pensa ê¢â â responde (max 5 rounds)
+ê¢ââ   ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ context.py          # Monta system prompt + memêÂ³rias relevantes
+ê¢ââ   ê¢ââ
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ providers/
+ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ base.py              # Interface abstrata
+ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ openrouter.py        # OpenRouter via LiteLLM (100+ modelos)
+ê¢ââ   ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ ollama.py            # Ollama local (zero custo, zero privacidade comprometida)
+ê¢ââ   ê¢ââ
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ channels/
+ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ base.py              # Interface abstrata
+ê¢ââ   ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ telegram.py         # Long-polling, split de msg, typing indicator
+ê¢ââ   ê¢ââ
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ memory/
+ê¢ââ   ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ store.py             # SQLite FTS5 + BM25 ranking + deduplicaêÂ§êÂ£o
+ê¢ââ   ê¢ââ
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ tools/
+ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ base.py              # Interface abstrata
+ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ registry.py          # Descoberta e dispatch de ferramentas
+ê¢ââ   ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ filesystem.py        # read_file, write_file, list_directory
+ê¢ââ   ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ shell.py             # run_command (com safety check)
+ê¢ââ   ê¢ââ
+ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ security/
+ê¢ââ       ê¢âÅê¢ââ¬ê¢ââ¬ secrets.py           # Store Fernet (chave = UUID do hardware)
+ê¢ââ       ê¢ââê¢ââ¬ê¢ââ¬ safety.py            # Blocklist de comandos + audit log
+ê¢ââ
+ê¢ââê¢ââ¬ê¢ââ¬ workspace/
+    ê¢âÅê¢ââ¬ê¢ââ¬ SOUL.md                  # Personalidade da IA
+    ê¢âÅê¢ââ¬ê¢ââ¬ AGENTS.md                # Regras de comportamento
+    ê¢âÅê¢ââ¬ê¢ââ¬ USER.md                  # Perfil e preferêÂªncias do usuêÂ¡rio
+    ê¢ââê¢ââ¬ê¢ââ¬ MEMORY.md                # Fatos de bootstrap (seed inicial)
 ```
 
 ### Fluxo de uma mensagem
 
 ```
 Telegram long-polling
-    â†“  IncomingMessage
+    ê¢â â  IncomingMessage
 AgentLoop.process_message()
-    â”œâ”€â”€ ContextBuilder
-    â”‚       â”œâ”€â”€ SOUL.md + AGENTS.md + USER.md
-    â”‚       â””â”€â”€ memory.search(query) â†’ memÃ³rias relevantes
-    â”‚
-    â”œâ”€â”€ Provider.chat(messages, tools)
-    â”‚       â†“  LLMResponse
-    â”‚       â””â”€â”€ tool_calls? â”€â”€â†’ ToolRegistry.execute()
-    â”‚                               â””â”€â”€ re-envia ao LLM (max 5 rounds)
-    â”‚
-    â”œâ”€â”€ memory.save(resumo da conversa)
-    â”‚
-    â””â”€â”€ Channel.send(OutgoingMessage)
-            â†“
-        Telegram (split automÃ¡tico em >4096 chars)
+    ê¢âÅê¢ââ¬ê¢ââ¬ ContextBuilder
+    ê¢ââ       ê¢âÅê¢ââ¬ê¢ââ¬ SOUL.md + AGENTS.md + USER.md
+    ê¢ââ       ê¢ââê¢ââ¬ê¢ââ¬ memory.search(query) ê¢â â memêÂ³rias relevantes
+    ê¢ââ
+    ê¢âÅê¢ââ¬ê¢ââ¬ Provider.chat(messages, tools)
+    ê¢ââ       ê¢â â  LLMResponse
+    ê¢ââ       ê¢ââê¢ââ¬ê¢ââ¬ tool_calls? ê¢ââ¬ê¢ââ¬ê¢â â ToolRegistry.execute()
+    ê¢ââ                               ê¢ââê¢ââ¬ê¢ââ¬ re-envia ao LLM (max 5 rounds)
+    ê¢ââ
+    ê¢âÅê¢ââ¬ê¢ââ¬ memory.save(resumo da conversa)
+    ê¢ââ
+    ê¢ââê¢ââ¬ê¢ââ¬ Channel.send(OutgoingMessage)
+            ê¢â â
+        Telegram (split automêÂ¡tico em >4096 chars)
 ```
 
 ---
 
 ## Stack de Identidade
 
-A personalidade do Antidote vive em arquivos Markdown editÃ¡veis â€” sem banco de dados especial, sem interface separada. Edite no editor de texto.
+A personalidade do Antidote vive em arquivos Markdown editêÂ¡veis ê¢â¬â sem banco de dados especial, sem interface separada. Edite no editor de texto.
 
 | Arquivo | O que define |
 |---------|-------------|
 | `workspace/SOUL.md` | Personalidade: tom, valores, estilo de resposta |
-| `workspace/AGENTS.md` | Regras: quando usar ferramentas, como usar memÃ³ria |
-| `workspace/USER.md` | Perfil do usuÃ¡rio, preferÃªncias, contexto de vida |
+| `workspace/AGENTS.md` | Regras: quando usar ferramentas, como usar memêÂ³ria |
+| `workspace/USER.md` | Perfil do usuêÂ¡rio, preferêÂªncias, contexto de vida |
 | `workspace/MEMORY.md` | Fatos de bootstrap carregados na primeira vez |
 
-Esses arquivos sÃ£o carregados por `agent/context.py` a cada mensagem e montam o system prompt enviado ao LLM.
+Esses arquivos sêÂ£o carregados por `agent/context.py` a cada mensagem e montam o system prompt enviado ao LLM.
 
 ---
 
-## MemÃ³ria
+## MemêÂ³ria
 
-Usa **SQLite FTS5** com ranking **BM25** â€” sem embeddings, sem chamadas de API para busca, sem custo extra.
+Usa **SQLite FTS5** com ranking **BM25** ê¢â¬â sem embeddings, sem chamadas de API para busca, sem custo extra.
 
 ```sql
--- Busca full-text com ranking de relevÃ¢ncia
+-- Busca full-text com ranking de relevêÂ¢ncia
 SELECT * FROM memories_fts
 WHERE memories_fts MATCH 'projeto python semana passada'
 ORDER BY bm25(memories_fts)
@@ -212,36 +212,36 @@ LIMIT 10;
 
 | Categoria | O que armazena |
 |-----------|---------------|
-| `fact` | Fatos sobre vocÃª, preferÃªncias, contexto |
+| `fact` | Fatos sobre vocêÂª, preferêÂªncias, contexto |
 | `conversation` | Resumos de conversas importantes |
-| `solution` | SoluÃ§Ãµes para problemas recorrentes |
-| `preference` | Como vocÃª gosta das coisas |
+| `solution` | SoluêÂ§êÂµes para problemas recorrentes |
+| `preference` | Como vocêÂª gosta das coisas |
 
-- **DeduplicaÃ§Ã£o automÃ¡tica**: se o conteÃºdo novo tem >80% de sobreposiÃ§Ã£o com uma entrada existente, atualiza em vez de duplicar
-- **PersistÃªncia**: `~/.antidote/memory.db` â€” sobrevive a reinicializaÃ§Ãµes
-- **Ferramentas do LLM**: `save_memory`, `search_memory`, `forget_memory` disponÃ­veis diretamente na conversa
+- **DeduplicaêÂ§êÂ£o automêÂ¡tica**: se o conteêÂºdo novo tem >80% de sobreposiêÂ§êÂ£o com uma entrada existente, atualiza em vez de duplicar
+- **PersistêÂªncia**: `~/.antidote/memory.db` ê¢â¬â sobrevive a reinicializaêÂ§êÂµes
+- **Ferramentas do LLM**: `save_memory`, `search_memory`, `forget_memory` disponêÂ­veis diretamente na conversa
 
 ---
 
-## SeguranÃ§a
+## SeguranêÂ§a
 
 ### Secrets encriptados (Fernet)
 ```
-API Key â†’ AES-128-CBC + HMAC-SHA256 â†’ ~/.antidote/.secrets
-                â†‘
+API Key ê¢â â AES-128-CBC + HMAC-SHA256 ê¢â â ~/.antidote/.secrets
+                ê¢â â
     Chave derivada do UUID do hardware macOS via PBKDF2
-    (arquivo .secrets Ã© inÃºtil em outra mÃ¡quina)
+    (arquivo .secrets êÂ© inêÂºtil em outra mêÂ¡quina)
 ```
 
 ### Blocklist de comandos
 ```python
 BLOCKED = ["rm -rf /", "mkfs", "dd if=", "shutdown", "reboot", "> /dev/sd"]
-# Bloqueio por substring â€” qualquer variaÃ§Ã£o Ã© pega
+# Bloqueio por substring ê¢â¬â qualquer variaêÂ§êÂ£o êÂ© pega
 ```
 
 ### Outros controles
 - Path traversal: ferramentas de filesystem restritas ao `workspace/`
-- Timeout: 60s mÃ¡ximo por comando shell
+- Timeout: 60s mêÂ¡ximo por comando shell
 - Truncamento: output de comandos limitado a 10KB, leitura de arquivo a 100KB
 - Audit log: todo comando executado em `~/.antidote/audit.log`
 - Gitignore: `config.json`, `.secrets`, `.env`, `*.db`, `*.log` nunca sobem
@@ -250,23 +250,23 @@ BLOCKED = ["rm -rf /", "mkfs", "dd if=", "shutdown", "reboot", "> /dev/sd"]
 
 ## Provedores de LLM
 
-### OpenRouter (padrÃ£o)
-- Acesso a 100+ modelos com uma Ãºnica chave de API
-- Claude, GPT, Gemini, DeepSeek, Llama, Mistral â€” vocÃª escolhe
-- Retry automÃ¡tico com backoff exponencial (rate limits e 5xx)
+### OpenRouter (padrêÂ£o)
+- Acesso a 100+ modelos com uma êÂºnica chave de API
+- Claude, GPT, Gemini, DeepSeek, Llama, Mistral ê¢â¬â vocêÂª escolhe
+- Retry automêÂ¡tico com backoff exponencial (rate limits e 5xx)
 - Log de tokens consumidos para controle de custo
 
 ### Ollama (local/gratuito)
 - Zero custo, zero dados enviados para fora
 - Modelos: Llama 3.2, Mistral, Gemma, Phi-4, e outros
-- Fallback automÃ¡tico se OpenRouter falhar
+- Fallback automêÂ¡tico se OpenRouter falhar
 - Requer Ollama instalado: `brew install ollama`
 
 ---
 
 ## Auto-restart (macOS launchd)
 
-O Antidote nÃ£o morre com sleep, crash ou reboot.
+O Antidote nêÂ£o morre com sleep, crash ou reboot.
 
 ```bash
 # O wizard instala automaticamente. Para instalar manualmente:
@@ -277,17 +277,17 @@ launchctl load ~/Library/LaunchAgents/com.antidote.agent.plist
 launchctl unload ~/Library/LaunchAgents/com.antidote.agent.plist
 ```
 
-Logs ficam em `~/.antidote/logs/` para diagnÃ³stico.
+Logs ficam em `~/.antidote/logs/` para diagnêÂ³stico.
 
 ---
 
 ## Comandos
 
 ```bash
-# InicializaÃ§Ã£o
-./start.sh              # Tudo: venv + install + wizard (se necessÃ¡rio) + bot
+# InicializaêÂ§êÂ£o
+./start.sh              # Tudo: venv + install + wizard (se necessêÂ¡rio) + bot
 antidote                # Com venv ativo: auto-detecta config, inicia bot
-antidote setup          # ForÃ§a re-execuÃ§Ã£o do wizard
+antidote setup          # ForêÂ§a re-execuêÂ§êÂ£o do wizard
 
 # Desenvolvimento
 source .venv/bin/activate
@@ -306,7 +306,7 @@ launchctl start com.antidote.agent
 
 ---
 
-## ConfiguraÃ§Ã£o
+## ConfiguraêÂ§êÂ£o
 
 O wizard gera `~/.antidote/config.json` (gitignored). Estrutura:
 
@@ -334,17 +334,17 @@ O wizard gera `~/.antidote/config.json` (gitignored). Estrutura:
 
 ---
 
-## DependÃªncias
+## DependêÂªncias
 
-| Pacote | VersÃ£o | Para que serve |
+| Pacote | VersêÂ£o | Para que serve |
 |--------|--------|---------------|
-| `litellm` | â‰¥1.40.0 | Interface unificada para OpenRouter e Ollama |
-| `python-telegram-bot` | â‰¥21.0 | Bot API async com long-polling |
-| `cryptography` | â‰¥42.0 | Fernet â€” encriptaÃ§Ã£o dos secrets |
-| `aiosqlite` | â‰¥0.20.0 | SQLite async sem bloquear o event loop |
-| `python-dotenv` | â‰¥1.0 | Fallback de config via `.env` |
-| `rich` | â‰¥13.0 | Terminal: painÃ©is, tabelas, cores |
-| `questionary` | â‰¥2.0 | Prompts interativos no wizard |
+| `litellm` | ê¢â°Â¥1.40.0 | Interface unificada para OpenRouter e Ollama |
+| `python-telegram-bot` | ê¢â°Â¥21.0 | Bot API async com long-polling |
+| `cryptography` | ê¢â°Â¥42.0 | Fernet ê¢â¬â encriptaêÂ§êÂ£o dos secrets |
+| `aiosqlite` | ê¢â°Â¥0.20.0 | SQLite async sem bloquear o event loop |
+| `python-dotenv` | ê¢â°Â¥1.0 | Fallback de config via `.env` |
+| `rich` | ê¢â°Â¥13.0 | Terminal: painêÂ©is, tabelas, cores |
+| `questionary` | ê¢â°Â¥2.0 | Prompts interativos no wizard |
 
 ---
 
@@ -357,7 +357,7 @@ O wizard gera `~/.antidote/config.json` (gitignored). Estrutura:
 - [ ] Agent profiles (`agent/profiles.py`)
 
 ### Phase 3
-- [ ] Browser automation â€” Playwright (`tools/browser.py`)
+- [ ] Browser automation ê¢â¬â Playwright (`tools/browser.py`)
 - [ ] Webhook triggers (`tools/webhook.py`)
 - [ ] Screenshot + vision (`tools/screenshot.py`)
 - [ ] Obsidian vault integration (`integrations/obsidian.py`)
@@ -367,7 +367,7 @@ O wizard gera `~/.antidote/config.json` (gitignored). Estrutura:
 
 ## Interfaces (contratos)
 
-Cada subsistema implementa uma classe abstrata. Adicionar um novo provedor, canal ou ferramenta = criar um arquivo novo, sem tocar no cÃ³digo existente.
+Cada subsistema implementa uma classe abstrata. Adicionar um novo provedor, canal ou ferramenta = criar um arquivo novo, sem tocar no cêÂ³digo existente.
 
 ```python
 # Novo provedor: implemente BaseProvider
@@ -392,9 +392,9 @@ class MyChannel(BaseChannel):
 
 <div align="center">
 
-**~3,000 linhas Â· 35 arquivos Â· 7 dependÃªncias Â· 0 containers Docker**
+**~3,000 linhas êÂ· 35 arquivos êÂ· 7 dependêÂªncias êÂ· 0 containers Docker**
 
-[Ver anÃ¡lise completa de frameworks â†’](https://linnoff88-dev.github.io/
+[Ver anêÂ¡lise completa de frameworks ê¢â â](https://linnoff88-dev.github.io/
 
 </div>
 
